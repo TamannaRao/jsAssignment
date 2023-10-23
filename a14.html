@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a14</title>
+    <script>
+        var a=0;
+        function onClick(){
+            a++;
+            let image=document.getElementById("image");
+            if(a==2){
+                image.src="https://cdn.pixabay.com/photo/2018/04/26/16/31/marine-3352341_640.jpg";
+            }
+            if(a==3){
+                image.src="https://cdn.pixabay.com/photo/2018/04/26/16/39/beach-3352363_640.jpg";
+            }
+            if(a==4){
+                image.src="https://cdn.pixabay.com/photo/2015/09/30/01/48/turkey-964831_640.jpg";
+            }
+            if(a==5){
+                image.src="https://cdn.pixabay.com/photo/2013/02/01/18/14/url-77169_640.jpg";
+            }
+        }
+    </script>
+</head>
+<body>
+    <img id="image" onclick="onClick()" src="https://cdn.pixabay.com/photo/2016/10/26/19/00/domain-names-1772242_640.jpg" alt="">
+</body>
+</html>
